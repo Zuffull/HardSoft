@@ -6,7 +6,7 @@ export default function Header() {
         <div>
             <span className='logo'>HardSoft</span>
         </div>
-        <div className='presentation'>123</div>
+        <div className='presentation'></div>
     </header>
-  )
+)
 }
