@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #262626;
+    background: #ffffff;
     color: #FF8001;
     font-family: 'Bruno Ace SC', sans-serif;
     font-weight: 300;
@@ -19,8 +19,13 @@ body {
 }
 
 header .logo {
-    font-weight: 600;
-    font-size: 20px;
+    color: rgb(255, 128, 1);
+    font-family: Bruno Ace SC;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 header .presentation {
@@ -28,3 +33,26 @@ header .presentation {
     background-size: contain; 
     height: 300px;
 }
+
+.Інформаційна панель {
+    
+}
+
+.rectangle {
+width: 13.94rem;
+height: 2.56rem;
+border-radius: 13.44rem;
+background: rgb(255, 128, 1);
+}
+
+.Ellipse {
+    left: 119px;
+    right: 142px;
+    top: 103px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: rgb(255, 128, 1);
+    border-radius: 50%;
+
+  }
