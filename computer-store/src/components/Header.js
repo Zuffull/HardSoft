@@ -5,21 +5,22 @@ export default function Header() {
     <header>
       <div className='header-container'>
         <div className='logo'>HardSoft</div>
-        <div className='Інформаційна панель'>
-          <p>Україна м. Шептицький</p>
-          <p>вул. Стуса буд.3</p>
-          <p>Пн.-Пт.     з 09:00 до 19:00 Сб. з 10:00 до 18:00</p>
-          <p><a href='#'>Вхід</a></p>
-          <p><a href='#'>Кошик</a></p>
+        <div className='Інформаційнапанель'>
+          <p className='Адреса'>Україна м. Шептицький</p>
+          <p className='Вулиця'>вул. Стуса буд.3</p>
+          <p className='Графік'>Пн.-Пт. з 09:00 до 19:00 Сб. з 10:00 до 18:00</p>
+          <div className='IconAccount'><img></img></div>
+          <p className='Вхід'><a href='#'>Вхід</a></p>
+          <a href='#' className='Кошик'></a>
         </div>
-        <div className='Вибір категорії'>
-          <p><a href='#'>Системні блоки</a></p>
-          <p><a href='#'>Конфігуратор</a></p>
-          <p><a href='#'>Периферія</a></p>
-          <p><a href='#'>Комплектуючі</a></p>
-          <p><a href='#'>Контакти</a></p>
+        <div className='Вибіркатегорії'>
+          <p className='SystemBlock'><a href='#'>Системні блоки</a></p>
+          <p className='Конфігуратор'><a href='#'>Конфігуратор</a></p>
+          <p className='Периферія'><a href='#'>Периферія</a></p>
+          <p className='Комплектуючі'><a href='#'>Комплектуючі</a></p>
+          <p className='Контакти'><a href='#'>Контакти</a></p>
         </div>
-        <p>Топ продажів</p>
+        <p className='Top'>Топ продажів</p>
         <div className='rectangle'></div>
         <div className='Ellipse'></div>
       </div>
