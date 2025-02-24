@@ -33,13 +33,11 @@ header .logo {
     line-height: 48px;
 }
 
-
 header .presentation {
     background: url('../assets/img/image.png') no-repeat;
     background-size: contain; 
     height: 300px;
 }
-
 .Адреса {
     position: absolute;
     width: 137px;
@@ -50,8 +48,6 @@ header .presentation {
     font-size: 20px;
     color: #ffffff;
 }
-
-
 .Вулиця {
     position: absolute;
     width: 180px;
@@ -78,8 +74,6 @@ header .presentation {
     display: flex;
     align-items: center;
 }
-
-
 .Вхід {
     position: absolute;
     width: 34px;
@@ -93,7 +87,6 @@ header .presentation {
     align-items: center;
 }
 
-
 .IconAccount {
     background: url('../assets/img/7853767_kashifarif_user_profile_person_account_icon\ \(1\).png') no-repeat;
     background-size: contain;
@@ -104,7 +97,6 @@ header .presentation {
     right: 226px;
     top: 87px;
     bottom: 2719px;
-
 }
 .Вхід a {
     text-decoration: none;
@@ -152,7 +144,6 @@ header .presentation {
     border-radius: 215px;
 }
 
-
 .Ellipse {
     position: absolute;
     width: 35px;
@@ -164,10 +155,6 @@ header .presentation {
     transform: rotate(75deg); /* Обертання на 75 градусів */
 }
 
-
-
-
-
 .SystemBlock {
 /* Системні блоки */
     width: 137px;
@@ -177,6 +164,13 @@ header .presentation {
     display: flex;
     align-items: center;
     color: rgb(255, 255, 255);
+}
+header .SystemBlock {
+    background: url('../assets/img/case.png') no-repeat;
+    /* Layer_1 */
+position: relative;
+width: 32px;
+height: 32px;
 }
 
 .Конфігуратор {

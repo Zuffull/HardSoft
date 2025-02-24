@@ -14,11 +14,13 @@ export default function Header() {
           <a href='#' className='Кошик'></a>
         </div>
         <div className='Вибіркатегорії'>
-          <p className='SystemBlock'><a href='#'>Системні блоки</a></p>
+          <div className='Image'>
+          <p className='SystemBlock'><image></image><a href='#'>Системні блоки</a></p>
           <p className='Конфігуратор'><a href='#'>Конфігуратор</a></p>
           <p className='Периферія'><a href='#'>Периферія</a></p>
           <p className='Комплектуючі'><a href='#'>Комплектуючі</a></p>
           <p className='Контакти'><a href='#'>Контакти</a></p>
+          </div>
         </div>
         <p className='Top'>Топ продажів</p>
         <div className='rectangle'></div>
