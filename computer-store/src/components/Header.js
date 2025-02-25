@@ -18,7 +18,9 @@ export default function Header() {
             <a href='#'>Системні блоки</a>
             <div className='SystemBlockIMG'></div>
             </p>
-          <p className='Конфігуратор'><a href='#'>Конфігуратор</a></p>
+          <p className='Конфігуратор'>
+            <a href='#'>Конфігуратор</a></p>
+            <div className='KonfigyratorIMG'></div>
           <p className='Периферія'><a href='#'>Периферія</a></p>
           <p className='Комплектуючі'><a href='#'>Комплектуючі</a></p>
           <p className='Контакти'><a href='#'>Контакти</a></p>

@@ -185,6 +185,17 @@ header .presentation {
     color: rgb(255, 255, 255);
 }
 
+.KonfigyratorIMG {
+    background: url('../assets/img/Configurator.png') no-repeat center center;
+    background-size: 100%;
+    position: absolute;
+    width: 30.25px;
+    height: 20.63px;
+    left: 407px;
+    top: 179px;
+    border: none;
+}
+
 .Периферія {
     position: absolute;
     width: 91px;
@@ -206,6 +217,7 @@ header .presentation {
     align-items: center;
     color: rgb(255, 255, 255);
 }
+
 
 .Контакти {
     position: absolute;
