@@ -120,10 +120,7 @@ header .presentation {
     color: white;
     border: none;
     border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 
 .Кошик:hover {
@@ -166,10 +163,15 @@ header .presentation {
     color: rgb(255, 255, 255);
 }
 
-header .SystemBlock {
-    background: url('../assets/img/case.png') no-repeat;
-    /* Layer_1 */
-position: relative;
+.SystemBlockIMG {
+    background: url('../assets/img/case.png') no-repeat center center;
+    background-size: 100%;
+    position: absolute;
+    border-color: none;
+    width: 32px;
+    height: 32px;
+    left: 130px;
+    right: 5px;
 }
 
 .Конфігуратор {
