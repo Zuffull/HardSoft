@@ -165,12 +165,11 @@ header .presentation {
     align-items: center;
     color: rgb(255, 255, 255);
 }
+
 header .SystemBlock {
     background: url('../assets/img/case.png') no-repeat;
     /* Layer_1 */
 position: relative;
-width: 32px;
-height: 32px;
 }
 
 .Конфігуратор {
