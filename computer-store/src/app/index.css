@@ -189,11 +189,10 @@ header .presentation {
     background: url('../assets/img/Configurator.png') no-repeat center center;
     background-size: 100%;
     position: absolute;
-    width: 30.25px;
-    height: 20.63px;
-    left: 407px;
-    top: 179px;
-    border: none;
+    left: -37px;
+    right: 179px;
+    width: 31px;
+    height: 21px;
 }
 
 .Периферія {
@@ -206,6 +205,19 @@ header .presentation {
     align-items: center;
     color: rgb(255, 255, 255);
 }
+
+.PeriferiaIMG {
+    background: url('../assets/img/Monitor.png') no-repeat center center;
+    background-size: contain; /* змінено на contain */
+    position: absolute;
+    width: 50px;  /* збільшено розмір */
+    height: 50px; /* збільшено розмір */
+    left: 672px;
+    top: 177px;
+    border: none;
+    right: auto; /* змінилося для запобігання виходу за межі */
+}
+
 
 .Комплектуючі {
     position: absolute;

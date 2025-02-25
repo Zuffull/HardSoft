@@ -19,9 +19,12 @@ export default function Header() {
             <div className='SystemBlockIMG'></div>
             </p>
           <p className='Конфігуратор'>
-            <a href='#'>Конфігуратор</a></p>
+            <a href='#'>Конфігуратор</a>
             <div className='KonfigyratorIMG'></div>
-          <p className='Периферія'><a href='#'>Периферія</a></p>
+            </p>
+          <p className='Периферія'>
+            <a href='#'>Периферія</a></p>
+            <div className='PeruferiaIMG'></div>
           <p className='Комплектуючі'><a href='#'>Комплектуючі</a></p>
           <p className='Контакти'><a href='#'>Контакти</a></p>
         </div>
